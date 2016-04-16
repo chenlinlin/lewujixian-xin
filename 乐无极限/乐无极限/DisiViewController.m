@@ -131,7 +131,6 @@
         [self.tabelView1.mj_footer endRefreshing];
         //恢复页数
         self.page--;
-        
     }];
 }
 
@@ -163,7 +162,7 @@
    
     VideoModel *model =self.araay[indexPath.row];
     [avView stop];
-
+    [avView removeFromSuperview];
     avView = [[PlayVeiw alloc] initWithFrame:CGRectMake(0, 64, ScreenWidth, 260) url:model.videouri];
      _img =[[UIImageView alloc] initWithFrame:avView.frame];
     [_img sd_setImageWithURL:[NSURL URLWithString:model.image0] placeholderImage:Image];
@@ -188,12 +187,5 @@
   
     
 }
-
-
-
-
-
-
-
 
 @end
