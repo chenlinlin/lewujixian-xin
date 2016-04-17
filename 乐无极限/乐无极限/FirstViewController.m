@@ -166,7 +166,7 @@
     [scrollView addSubview:vc.view];
     
 }
-
+//控制器即将消失的时候
 
 
 

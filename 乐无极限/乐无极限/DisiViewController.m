@@ -145,6 +145,10 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     VodeoCell *cell =[tableView dequeueReusableCellWithIdentifier:@"vodeocell"];
+    //去掉分割线
+    tableView.separatorStyle =UITableViewCellSeparatorStyleNone;
+    //去掉选中时的颜色
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     VideoModel *model =self.araay[indexPath.row];
     cell.model =model;
 

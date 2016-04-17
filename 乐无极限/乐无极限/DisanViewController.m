@@ -8,7 +8,7 @@
 
 #import "DisanViewController.h"
 #import "Header.h"
-#import "VideoModel.h"
+#import "ImageModel.h"
 #import "ImageCell.h"
 @interface DisanViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -56,7 +56,7 @@
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
       
         self.maxtemp =responseObject[@"info"][@"maxtime"];
-        NSArray *arr =[VideoModel mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        NSArray *arr =[ImageModel mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
         //结束刷新
         [self.array addObjectsFromArray:arr];
 
@@ -78,9 +78,9 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     ImageCell *cell =[tableView dequeueReusableCellWithIdentifier:@"imagecell"];
-    VideoModel *model =self.array[indexPath.row];
+    ImageModel *model =self.array[indexPath.row];
     
-    [cell.imgView sd_setImageWithURL:[NSURL URLWithString:model.cdn_img] placeholderImage:Image];
+    [cell.imgView sd_setImageWithURL:[NSURL URLWithString:model.image0] placeholderImage:Image];
     
     
     return cell;
