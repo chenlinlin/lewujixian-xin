@@ -11,4 +11,5 @@
 @interface NewsViewController : UIViewController
 
 @property(nonatomic,strong)NewsModel *model;
+
 @end

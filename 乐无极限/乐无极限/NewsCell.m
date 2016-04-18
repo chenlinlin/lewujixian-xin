@@ -31,6 +31,7 @@
     self.titelLabel.font =[UIFont systemFontOfSize:20];
     [self.contentView addSubview:self.titelLabel];
     
+    
     self.neirongLabel =[[UILabel alloc] initWithFrame:CGRectMake(110, 35, ScreenWidth-115, 45)];
     self.neirongLabel.numberOfLines =0;
     self.neirongLabel.font =[UIFont systemFontOfSize:15];

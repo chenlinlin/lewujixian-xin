@@ -10,4 +10,6 @@
 
 @interface DierViewController : UIViewController
 
+@property(nonatomic,strong)UIView *view2222;
+
 @end

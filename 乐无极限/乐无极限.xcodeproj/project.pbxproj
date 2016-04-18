@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2316C1C91CC0C97E00872225 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316C1C81CC0C97E00872225 /* FifthViewController.m */; };
+		2363426C1CC36AFA00CB8717 /* JokeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2363426B1CC36AFA00CB8717 /* JokeCell.m */; };
+		2363426F1CC36B0F00CB8717 /* JokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2363426E1CC36B0F00CB8717 /* JokeViewController.m */; };
+		236342721CC3742D00CB8717 /* JokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 236342711CC3742D00CB8717 /* JokeModel.m */; };
 		B2AD26634D346720D378B995 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 539B10245ACC727B9DEE0DC2 /* libPods.a */; };
 		C2114BE31CC07CF4008226DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2114BE21CC07CF4008226DA /* main.m */; };
 		C2114BE61CC07CF4008226DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2114BE51CC07CF4008226DA /* AppDelegate.m */; };
@@ -39,6 +42,12 @@
 /* Begin PBXFileReference section */
 		2316C1C71CC0C97E00872225 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
 		2316C1C81CC0C97E00872225 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		2363426A1CC36AFA00CB8717 /* JokeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeCell.h; sourceTree = "<group>"; };
+		2363426B1CC36AFA00CB8717 /* JokeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeCell.m; sourceTree = "<group>"; };
+		2363426D1CC36B0F00CB8717 /* JokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeViewController.h; sourceTree = "<group>"; };
+		2363426E1CC36B0F00CB8717 /* JokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeViewController.m; sourceTree = "<group>"; };
+		236342701CC3742D00CB8717 /* JokeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeModel.h; sourceTree = "<group>"; };
+		236342711CC3742D00CB8717 /* JokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeModel.m; sourceTree = "<group>"; };
 		539B10245ACC727B9DEE0DC2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41286B0C4BFF0FF8D0299DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C2114BDE1CC07CF4008226DA /* 乐无极限.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "乐无极限.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +193,8 @@
 			children = (
 				C2114C321CC100D9008226DA /* NewsModel.h */,
 				C2114C331CC100D9008226DA /* NewsModel.m */,
+				236342701CC3742D00CB8717 /* JokeModel.h */,
+				236342711CC3742D00CB8717 /* JokeModel.m */,
 				C2B5E56E1CC2289000830132 /* VideoModel.h */,
 				C2B5E56F1CC2289000830132 /* VideoModel.m */,
 			);
@@ -197,6 +208,10 @@
 				C2114C301CC100C5008226DA /* NewsCell.m */,
 				C2114C351CC10771008226DA /* NewsViewController.h */,
 				C2114C361CC10771008226DA /* NewsViewController.m */,
+				2363426A1CC36AFA00CB8717 /* JokeCell.h */,
+				2363426B1CC36AFA00CB8717 /* JokeCell.m */,
+				2363426D1CC36B0F00CB8717 /* JokeViewController.h */,
+				2363426E1CC36B0F00CB8717 /* JokeViewController.m */,
 				C2B5E5361CC1D72900830132 /* videoViews */,
 			);
 			name = Views;
@@ -492,9 +507,12 @@
 				C2114C271CC082C3008226DA /* UIView+XMGext.m in Sources */,
 				C2B5E5701CC2289000830132 /* VideoModel.m in Sources */,
 				C2B5E5391CC1D77700830132 /* VodeoCell.m in Sources */,
+				2363426F1CC36B0F00CB8717 /* JokeViewController.m in Sources */,
+				236342721CC3742D00CB8717 /* JokeModel.m in Sources */,
 				C2114C0F1CC07E77008226DA /* FourthViewController.m in Sources */,
 				C2114C3A1CC10D11008226DA /* NSString+Html.m in Sources */,
 				C2B5E56D1CC224C800830132 /* PlayViewController.m in Sources */,
+				2363426C1CC36AFA00CB8717 /* JokeCell.m in Sources */,
 				C2114C151CC07E9D008226DA /* SecontViewController.m in Sources */,
 				C2114C1D1CC081F8008226DA /* DierViewController.m in Sources */,
 				C2114C121CC07E90008226DA /* ThirdViewController.m in Sources */,
