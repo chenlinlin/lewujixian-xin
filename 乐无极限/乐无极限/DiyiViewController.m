@@ -150,6 +150,10 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     NewsCell *cell =[tableView dequeueReusableCellWithIdentifier:@"newscell"];
+    //去掉分割线
+    tableView.separatorStyle =UITableViewCellSeparatorStyleNone;
+    //去掉选中时的颜色
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     NewsModel *model =self.array[indexPath.row];
     cell.titelLabel.text =model.title;
     cell.neirongLabel.text =model.ltitle;

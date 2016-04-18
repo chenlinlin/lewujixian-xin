@@ -32,6 +32,8 @@
 		C2114C341CC100D9008226DA /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2114C331CC100D9008226DA /* NewsModel.m */; };
 		C2114C371CC10771008226DA /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2114C361CC10771008226DA /* NewsViewController.m */; };
 		C2114C3A1CC10D11008226DA /* NSString+Html.m in Sources */ = {isa = PBXBuildFile; fileRef = C2114C391CC10D11008226DA /* NSString+Html.m */; };
+		C283F20F1CC37D5100CAE1DD /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C283F20E1CC37D5100CAE1DD /* ImageModel.m */; };
+		C28437501CC2726100BEBEFF /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C284374F1CC2726100BEBEFF /* ImageCell.m */; };
 		C2B5E5351CC1D2E700830132 /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B5E5341CC1D2E700830132 /* aa.png */; };
 		C2B5E5391CC1D77700830132 /* VodeoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B5E5381CC1D77700830132 /* VodeoCell.m */; };
 		C2B5E56A1CC2249B00830132 /* PlayVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B5E5691CC2249B00830132 /* PlayVeiw.m */; };
@@ -87,6 +89,10 @@
 		C2114C361CC10771008226DA /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		C2114C381CC10D11008226DA /* NSString+Html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Html.h"; sourceTree = "<group>"; };
 		C2114C391CC10D11008226DA /* NSString+Html.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Html.m"; sourceTree = "<group>"; };
+		C283F20D1CC37D5100CAE1DD /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		C283F20E1CC37D5100CAE1DD /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		C284374E1CC2726100BEBEFF /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		C284374F1CC2726100BEBEFF /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 		C2B5E5301CC1D13E00830132 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		C2B5E5341CC1D2E700830132 /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
 		C2B5E5371CC1D77700830132 /* VodeoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VodeoCell.h; sourceTree = "<group>"; };
@@ -197,6 +203,8 @@
 				236342711CC3742D00CB8717 /* JokeModel.m */,
 				C2B5E56E1CC2289000830132 /* VideoModel.h */,
 				C2B5E56F1CC2289000830132 /* VideoModel.m */,
+				C283F20D1CC37D5100CAE1DD /* ImageModel.h */,
+				C283F20E1CC37D5100CAE1DD /* ImageModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -208,10 +216,15 @@
 				C2114C301CC100C5008226DA /* NewsCell.m */,
 				C2114C351CC10771008226DA /* NewsViewController.h */,
 				C2114C361CC10771008226DA /* NewsViewController.m */,
+<<<<<<< HEAD
 				2363426A1CC36AFA00CB8717 /* JokeCell.h */,
 				2363426B1CC36AFA00CB8717 /* JokeCell.m */,
 				2363426D1CC36B0F00CB8717 /* JokeViewController.h */,
 				2363426E1CC36B0F00CB8717 /* JokeViewController.m */,
+=======
+				C284374E1CC2726100BEBEFF /* ImageCell.h */,
+				C284374F1CC2726100BEBEFF /* ImageCell.m */,
+>>>>>>> 31f4920bbc0cada072801f9a4da3f30a1d71f1f8
 				C2B5E5361CC1D72900830132 /* videoViews */,
 			);
 			name = Views;
@@ -516,7 +529,9 @@
 				C2114C151CC07E9D008226DA /* SecontViewController.m in Sources */,
 				C2114C1D1CC081F8008226DA /* DierViewController.m in Sources */,
 				C2114C121CC07E90008226DA /* ThirdViewController.m in Sources */,
+				C28437501CC2726100BEBEFF /* ImageCell.m in Sources */,
 				C2114BE61CC07CF4008226DA /* AppDelegate.m in Sources */,
+				C283F20F1CC37D5100CAE1DD /* ImageModel.m in Sources */,
 				C2114C341CC100D9008226DA /* NewsModel.m in Sources */,
 				C2B5E56A1CC2249B00830132 /* PlayVeiw.m in Sources */,
 				C2114C371CC10771008226DA /* NewsViewController.m in Sources */,
