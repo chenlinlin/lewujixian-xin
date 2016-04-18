@@ -217,10 +217,15 @@
 				C2114C351CC10771008226DA /* NewsViewController.h */,
 				C2114C361CC10771008226DA /* NewsViewController.m */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				2363426A1CC36AFA00CB8717 /* JokeCell.h */,
 				2363426B1CC36AFA00CB8717 /* JokeCell.m */,
 				2363426D1CC36B0F00CB8717 /* JokeViewController.h */,
 				2363426E1CC36B0F00CB8717 /* JokeViewController.m */,
+=======
+				C284374E1CC2726100BEBEFF /* ImageCell.h */,
+				C284374F1CC2726100BEBEFF /* ImageCell.m */,
+>>>>>>> 31f4920bbc0cada072801f9a4da3f30a1d71f1f8
 =======
 				C284374E1CC2726100BEBEFF /* ImageCell.h */,
 				C284374F1CC2726100BEBEFF /* ImageCell.m */,
